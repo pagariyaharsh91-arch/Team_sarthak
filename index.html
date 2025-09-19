@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Helping Project</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      display: block;
+    }
+
+    nav a:hover {
+      background: #555;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #222;
+    }
+
+    /* Team Section */
+    .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      text-align: center;
+    }
+
+    .team img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #4facfe;
+      margin-bottom: 1rem;
+    }
+
+    /* Visits Section */
+    .visits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .visit-card {
+      background: white;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .visit-card img, .visit-card video {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+    }
+
+    .visit-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+        .posters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .posters img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .posters img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Community Helping Project</h1>
+    <p>Working together for a better society</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#team">Our Team</a>
+    <a href="#visits">Our Visits</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:800px; margin:auto; line-height:1.7;">
+      Our Community Helping Project is dedicated to bringing positive change in society. 
+      We believe in teamwork, compassion, and action. Through our visits and initiatives, 
+      we aim to support underprivileged communities, spread awareness, and contribute 
+      towards building a better tomorrow.
+    </p>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team">
+    <h2>Meet Our Team</h2>
+    <div class="team">
+      <div>
+        <img src="sarthak_new.png" alt="Sarthak Nerkar">
+        <h3>Sarthak Nerkar</h3>
+      </div>
+      <div>
+        <img src="aditi_new.png" alt="Aditi Padvi">
+        <h3>Aditi Padvi</h3>
+      </div>
+      <div>
+        <img src="ishwari_new.png" alt="Ishwari Nyharkar">
+        <h3>Ishwari nyharakar</h3>
+      </div>
+      <div>
+        <img src="cleven_new.png" alt="Cleven jose">
+        <h3>Cleven jose</h3>
+      </div>
+      <div>
+        <img src="anuja_new.png" alt="Anuja Nagmoti">
+        <h3>Anuja Nagmoti</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visits Section -->
+  <section id="visits">
+    <h2>Our Visits</h2>
+    <div class="visits">
+
+      <!-- Visit 1 with 3 photos -->
+      <div class="visit-card">
+        <div class="photo-grid">
+          <img src="first_visit1.jpg" alt="Visit 1 Photo 1">
+          <img src="first_visit2.jpg" alt="Visit 1 Photo 2">
+          <img src="first_visit3.jpg" alt="Visit 1 Photo 3">
+        </div>
+        <p><strong>Visit 1:</strong> General:
+1. "Small acts, big impact! Thanks for supporting our drive! 🌟"
+2. "Love and kindness can change lives! 🙏"
+3. "Community support makes a difference! 🌈💕"
+</p>
+      </div>
+
+      <!-- Visit 2 with photo + video -->
+      <div class="visit-card">
+        <img src="second_visit1.jpg" alt="Visit 2">
+        <video controls>
+          <source src="second_visit1.mp4" type="video/mp4">
+        </video>
+        <p><strong>Visit 2:</strong> For Food Drive:
+1. "Nourishing bodies, feeding souls! Thanks for supporting our food drive! 🍲❤"
+2. "Food for thought: kindness matters! 🙏🥘"
+3. "Sharing meals, sharing love! Our food drive made a difference! 🍴💕"
+</p>
+      </div>
+
+      <!-- Visit 3 with photo + video -->
+      <div class="visit-card">
+        <img src="third_visit.jpg" alt="Visit 3">
+         <img src="third_visit1.jpg" alt="Visit 3">
+        <video controls>
+          <source src="third_visit4.mp4" type="video/mp4">
+        </video>
+        <p><strong>Visit 3:</strong> we can take the cleanliness drive</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- Posters Section -->
+  <section id="posters">
+    <h2>Posters</h2>
+    <div class="posters">
+      <img src="poster_visit.jpg" alt="Poster 1">
+      <img src="poster2.jpg" alt="Poster 2">
+      <img src="poster3.jpg" alt="Poster 3">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">Email: Communityhelpers825@gmail.com</p>
+    <p style="text-align:center;">Phone: +91-7058859359</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Community Helping Project | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
